@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Tasks</title>
+</head>
+
+<style>
+    *{
+    background-color:rgba(87,82,173,0.2);
+    margin:0;
+    padding:0;
+}
+.box {
+      text-align: center;
+      background:cornflowerblue;
+      padding: 5px ;
+      margin: 40px;
+    }
+    h1.buttonD {
+    display: inline-block;
+    padding: 20px 60px;
+    background: whitesmoke;
+    color: blue;
+    border-radius: 10%;
+    font-variant: small-caps;
+    font-size: xxx-large;
+    }
+    
+    /* h1.buttonD:hover {
+      animation-name: rubberBand;
+    }
+    
+    
+    @keyframes rubberBand {
+      from {
+        transform: scale3d(1, 1, 1);
+      }
+    
+      50% {
+        transform: scale3d(3.15, 3.85, 3);
+      }
+    
+      to {
+        transform: scale3d(1, 1, 1);
+      }
+    } */
+
+h2{
+    text-align: center;
+    margin: 30px;
+    font-variant: all-small-caps;
+    font-size: 80px;
+    color: green;
+    background: transparent;
+    
+}
+
+
+.Ques{
+    border:2px solid black;
+    height:max-content;
+    width:100%;
+    margin:20px;
+    padding:15px;
+}
+
+
+/* h2:hover {
+  animation: trans 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes trans{
+  25% { transform: translate(4px,4px) rotate(120deg);}
+  50% { transform: translate(-4px,-4px) rotate(240deg);}
+  75% { transform: translate(4px,4px) rotate(360deg);}
+} */
+</style>
+<body>
+    <div class="box">
+        
+        
+        <h1 href="#" class="buttonD">AIChe</h1>
+        
+    </div>
+    <h2 class="aa">Web Development</h2>
+    <div class="abc">
+    <div class="Ques"> 
+    <span style="color: red ; background: transparent,">Q1-output</span><br>
+
+    101*150*50<br>
+    101*152*50<br>
+    101*202*49
+    </div>
+    <div class="Ques"><p>
+        <span style="color: red">Q2-</span>
+        <div id="ko"></div>
+            
+           
+    </p></div>
+        
+        <div class="Ques"><span style="color: red">Q2-</span><a target="_self" href="https://646e6f3562711b1c6958cb55--melodic-pasca-f53f04.netlify.app/" >Link</a>.</div>
+    <div class="Ques">Credits <br>
+    Alok Kumar(122EI401)
+    
+   </div>
+   
+
+</body>
+<script>
+    const q2 = document.getElementById("ko");
+    q2.innerText= `#include<iostream>
+        using namespace std;
+            
+            int main()
+            {
+                int l = 5;
+                for (int i = 0; i < l; i++)
+                {
+                    for (int j = 1; j <= 2 * l; j++)
+                    {
+                        if ((j > (l - i)) && (j <= (l + i))){cout << " ";}
+                        else{cout << "*";}
+                }
+                cout << endl;
+            }
+            for (int i = (l - 1); i >= 0; i--)
+            {
+                for (int j = 1; j <= 2 * l; j++)
+                {
+                    if ((j > (l - i)) && (j <= (l + i))){cout << " ";}
+                    else{cout << "*";}
+                }
+                cout << endl;
+            }
+        
+            return 0;
+        }`;
+</script>
+</html>
